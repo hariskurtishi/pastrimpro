@@ -1,5 +1,5 @@
 import HeaderSection from '@/components/sections/HeaderSection'
-// import Services from '@/components/sections/Services'
+import Services from '@/components/sections/Services'
 import Layout from '@/layout/Layout'
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <Layout title="Home">
       {/* Header Section Example */}
       <HeaderSection />
-      {/* <Services /> */}
+      <Services />
     </Layout>
   )
 }

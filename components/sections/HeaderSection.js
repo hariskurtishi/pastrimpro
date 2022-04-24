@@ -20,41 +20,52 @@ export default function HeaderSection() {
             Professional housecleaning services, you want to make sure that you find a team that can
             accommodate your schedule, and cleaning preferences.
           </p>
-          <Link href="#contact" passHref className="" aria-label="Contact Button">
-            <Button as="a" variant="primary">
-              Contact us
-            </Button>
-          </Link>
+          <div className="flex justify-center md:justify-start mt-4">
+            <Link href="#contact" passHref className="" aria-label="Contact Button">
+              <Button as="a" variant="primary">
+                Contact us
+              </Button>
+            </Link>
+          </div>
 
-          <div className="flex  items-center space-x-4 mt-10">
+          <div className="flex justify-center md:justify-start ">
             <a rel="noopener noreferrer" aria-label="phone" href="tel:00389 79 322 958">
-              <SVG
-                src="/svg/call.svg"
-                className="bg-blue-300 w-10 h-10 p-2  text-white rounded-full"
-                alt="phone icon"
-              />
+              <div className="flex justify items-center space-x-4 mt-10">
+                <SVG
+                  src="/svg/call.svg"
+                  className="bg-blue-300 w-10 h-10 p-2  text-white rounded-full"
+                  alt="phone icon"
+                />
+
+                <p className="text-gray-500"> +389 79 322 958</p>
+              </div>
             </a>
-            <p className="text-gray-500"> +389 79 322 958</p>
           </div>
         </div>
-        <div className="md:col-6 flex justify-end relative pt-12 md:pt-0">
-          <div className="">
-            <Image
-              // loader={myLoader}
-              priority
-              src="/images/heropic.jpg"
-              layout="intrinsic"
-              alt="Header"
-              objectFit="cover"
-              quality={100}
-              width={460}
-              height={710}
-            />
-          </div>
-          <div className="absolute md:left-[168px] top-0 " style={{ zIndex: '2' }}>
+        <div className="md:col-6 flex justify-end relative pt-12 md:pt-0" style={{ zIndex: '4' }}>
+          <Image
+            // loader={myLoader}
+            priority
+            src="/images/heropic.jpg"
+            layout="intrinsic"
+            alt="Header"
+            objectFit="cover"
+            quality={100}
+            width={460}
+            height={710}
+          />
+
+          <div className="absolute left-2 md:left-[168px] top-0 " style={{ zIndex: '2' }}>
             <SVG
               src="/svg/checkicon.svg"
               className="w-12 h-screen rounded-md "
+              alt="facebook icon"
+            />
+          </div>
+          <div className="absolute -top-64 md:left-14 md:top-[390px] " style={{ zIndex: '-1' }}>
+            <SVG
+              src="/svg/dots.svg"
+              className="w-34 h-screen opacity-10 rounded-md "
               alt="facebook icon"
             />
           </div>
