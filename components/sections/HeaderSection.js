@@ -25,8 +25,19 @@ export default function HeaderSection() {
               Contact us
             </Button>
           </Link>
+
+          <div className="flex  items-center space-x-4 mt-10">
+            <a rel="noopener noreferrer" aria-label="phone" href="tel:00389 79 322 958">
+              <SVG
+                src="/svg/call.svg"
+                className="bg-blue-300 w-10 h-10 p-2  text-white rounded-full"
+                alt="phone icon"
+              />
+            </a>
+            <p className="text-gray-500"> +389 79 322 958</p>
+          </div>
         </div>
-        <div className="md:col-6 flex justify-end relative">
+        <div className="md:col-6 flex justify-end relative pt-12 md:pt-0">
           <div className="">
             <Image
               // loader={myLoader}
@@ -40,7 +51,7 @@ export default function HeaderSection() {
               height={710}
             />
           </div>
-          <div className="absolute md:left-[168`px] top-0 " style={{ zIndex: '2' }}>
+          <div className="absolute md:left-[168px] top-0 " style={{ zIndex: '2' }}>
             <SVG
               src="/svg/checkicon.svg"
               className="w-12 h-screen rounded-md "
