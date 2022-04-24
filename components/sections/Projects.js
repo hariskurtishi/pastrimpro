@@ -2,7 +2,7 @@ import Image from 'next/image'
 import SVG from 'react-inlinesvg'
 export default function Projects() {
   return (
-    <div className="container mt-48 md:mt-0 h-screen">
+    <div className="container my-28">
       <p className="py-4 text-center md:py-2 text-orange-500">Best services</p>
       <h2 className="text-center md:leading-tight text-3xl md:text-4xl font-bold text-gray-800  ">
         Our Work Process
@@ -19,7 +19,7 @@ export default function Projects() {
           <Image
             // loader={myLoader}
             priority
-            src="/images/heropic.jpg"
+            src="/images/1.jpg"
             layout="intrinsic"
             alt="Header"
             objectFit="cover"
@@ -33,7 +33,7 @@ export default function Projects() {
           <Image
             // loader={myLoader}
             priority
-            src="/images/heropic.jpg"
+            src="/images/2.jpg"
             layout="intrinsic"
             alt="Header"
             objectFit="cover"
@@ -47,7 +47,49 @@ export default function Projects() {
           <Image
             // loader={myLoader}
             priority
-            src="/images/heropic.jpg"
+            src="/images/3.jpg"
+            layout="intrinsic"
+            alt="Header"
+            objectFit="cover"
+            quality={100}
+            className="rounded-lg"
+            width={460}
+            height={460}
+          />
+        </div>
+        <div className=" rounded-lg  text-gray-500 bg-white">
+          <Image
+            // loader={myLoader}
+            priority
+            src="/images/4.jpg"
+            layout="intrinsic"
+            alt="Header"
+            objectFit="cover"
+            quality={100}
+            className="rounded-lg"
+            width={460}
+            height={460}
+          />
+        </div>
+        <div className=" rounded-lg  text-gray-500 bg-white">
+          <Image
+            // loader={myLoader}
+            priority
+            src="/images/5.jpg"
+            layout="intrinsic"
+            alt="Header"
+            objectFit="cover"
+            quality={100}
+            className="rounded-lg"
+            width={460}
+            height={460}
+          />
+        </div>
+        <div className=" rounded-lg  text-gray-500 bg-white">
+          <Image
+            // loader={myLoader}
+            priority
+            src="/images/6.jpg"
             layout="intrinsic"
             alt="Header"
             objectFit="cover"

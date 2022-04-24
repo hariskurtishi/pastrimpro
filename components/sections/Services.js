@@ -2,7 +2,7 @@ import Link from 'next/link'
 import SVG from 'react-inlinesvg'
 export default function Services() {
   return (
-    <div className="container mt-24 h-screen">
+    <div className="container mt-24 ">
       <p className="py-4 text-center md:text-left md:py-4 text-orange-500">Best services</p>
       <h2 className="text-center md:leading-tight md:text-left text-3xl md:text-4xl font-bold text-gray-800  ">
         Our Services
