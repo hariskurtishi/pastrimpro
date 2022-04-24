@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import SVG from 'react-inlinesvg'
 
+import Button from '../Button'
 const NavItem = ({ children, href }) => {
   return (
     <li className="w-full md:w-auto md:mr-6">
@@ -18,11 +19,11 @@ export default function Navigation() {
   const [menu, setMenu] = useState(false)
 
   return (
-    <div className="bg-white shadow-lg flex items-center">
+    <div className="bg-gray-250 flex items-center">
       <div className="container">
-        <div className="row py-6 justify-between">
-          <div className="col-6">
-            <p className="font-bold text-gray-800 text-2xl">Next Starter</p>
+        <div className="row py-6 justify-between items-center">
+          <div className="col-3">
+            <p className="font-bold text-blue-300 text-2xl">Pastrim Pro</p>
           </div>
           <div className="col-2 md:hidden block">
             <label htmlFor="menu-toggle" className="cursor-pointer">
@@ -35,14 +36,23 @@ export default function Navigation() {
           </div>
 
           <div
-            className={`md:col-6 md:flex justify-center md:justify-end ${
+            className={`md:col-6 md:flex justify-center md:justify-center ${
               menu ? ' flex' : ' hidden'
             }`}
           >
-            <ul className="flex w-full p-5 flex-col md:w-auto md:p-0 md:flex-row items-center">
+            <ul className="flex w-full text-center text-gray-500 divide-y divide-gray-500 md:divide-y-0 md:space-x-12 p-5 flex-col md:w-auto md:p-0 md:flex-row items-center">
               <NavItem href="/">Home</NavItem>
               <NavItem href="/about">About</NavItem>
+              <NavItem href="/">Services</NavItem>
+              <NavItem href="/">Pricing</NavItem>
             </ul>
+          </div>
+          <div className="hidden md:col-3 md:flex md:justify-end items-center">
+            <Link href="#contact" passHref className="" aria-label="Contact Button">
+              <Button as="a" variant="secondary">
+                Get a Quote
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
