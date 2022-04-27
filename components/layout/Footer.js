@@ -3,14 +3,14 @@ import SVG from 'react-inlinesvg'
 export default function Footer() {
   return (
     <div>
-      <div className=" bg-opacity-90">
-        <div className="bg-blue-300 ">
+      <div className="  ">
+        <div className="bg-blue-300  ">
           <div className="flex items-center justify-between">
             <div className="container items-center justify-between md:flex">
               <div className="flex justify-center md:justify-start">
                 <Link href="/" passHref aria-label="Logo">
                   <a>
-                    <div className="col-3">
+                    <div className=" pt-16 md:pt-0">
                       <p className="font-bold text-white text-2xl">Pastrim Pro</p>
                     </div>
                   </a>
@@ -19,7 +19,11 @@ export default function Footer() {
 
               <div className="my-12 text-lg font-medium text-center text-white md:text-base">
                 © All Rights Reserved. 2022 Made by {}
-                <a className="transition-all" rel="noopener noreferrer">
+                <a
+                  href="https://hariskurtishi.com/"
+                  className="transition-all hover:border-b"
+                  rel="noopener noreferrer"
+                >
                   <span className="text-white">Haris Kurtishi</span>
                 </a>
               </div>

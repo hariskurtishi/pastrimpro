@@ -1,3 +1,4 @@
+import About from '@/components/sections/About'
 import HeaderSection from '@/components/sections/HeaderSection'
 import Projects from '@/components/sections/Projects'
 import Services from '@/components/sections/Services'
@@ -9,6 +10,7 @@ export default function Home() {
       {/* Header Section Example */}
       <HeaderSection />
       <Services />
+      <About />
       <Projects />
     </Layout>
   )
