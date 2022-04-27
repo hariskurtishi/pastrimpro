@@ -3,28 +3,28 @@ import SVG from 'react-inlinesvg'
 export default function Footer() {
   return (
     <div>
-      <div className="  ">
-        <div className="bg-blue-300  ">
+      <div className="">
+        <div className="">
           <div className="flex items-center justify-between">
             <div className="container items-center justify-between md:flex">
               <div className="flex justify-center md:justify-start">
                 <Link href="/" passHref aria-label="Logo">
                   <a>
                     <div className=" pt-16 md:pt-0">
-                      <p className="font-bold text-white text-2xl">Pastrim Pro</p>
+                      <p className="font-bold text-blue-300 text-2xl">Pastrim Pro</p>
                     </div>
                   </a>
                 </Link>
               </div>
 
-              <div className="my-12 text-lg font-medium text-center text-white md:text-base">
+              <div className="my-12 text-lg font-medium text-center text-gray-500 md:text-base">
                 © All Rights Reserved. 2022 Made by {}
                 <a
                   href="https://hariskurtishi.com/"
                   className="transition-all hover:border-b"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-white">Haris Kurtishi</span>
+                  <span className="text-blue-300 hover:text-blue-400">Haris Kurtishi</span>
                 </a>
               </div>
 
@@ -37,7 +37,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/fb.svg"
-                      className="w-12 h-12 p-2 transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
+                      className="w-12 h-12 p-2 transition-all text-blue-300 hover:text-blue-400 rounded-md cursor-pointer fill-current "
                       alt="facebook icon"
                     />
                   </a>
@@ -51,7 +51,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/instagram.svg"
-                      className="w-12 h-12 p-2 transition-all text-white hover:text-orange-500 rounded-md cursor-pointer fill-current "
+                      className="w-12 h-12 p-2 transition-all text-blue-300 hover:text-blue-400 rounded-md cursor-pointer fill-current "
                       alt="email icon"
                     />
                   </a>
