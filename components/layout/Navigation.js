@@ -51,14 +51,14 @@ export default function Navigation() {
             }`}
           >
             <ul className="flex-col w-full font-bold divide-y lg:flex text-gray-950 md:text-zinc-700 md:font-medium pt-14 lg:space-x-12 lg:w-auto md:p-0 md:flex-row lg:justify-center text-center md:items-center lg:text-left md:divide-y-2 lg:divide-y-0 divide-gray-950">
-              <NavItem href="home">Home</NavItem>
-              <NavItem href="about">About</NavItem>
-              <NavItem href="services">Services</NavItem>
+              <NavItem href="home">Ballina</NavItem>
+              <NavItem href="about">Reth nesh</NavItem>
+              <NavItem href="services">Shërbimet</NavItem>
               <a rel="noopener noreferrer" aria-label="phone" href="tel:00389 79 322 958">
                 <div className="flex justify-center pt-6 md:pt-0 items-center space-x-4 ">
                   <SVG
                     src="/svg/call.svg"
-                    className="bg-gray-950 hover:bg-gray-3 w-10 h-10 p-2  text-white rounded-full"
+                    className="bg-gray-950 hover:bg-gray-3 w-8 h-8 p-2  text-white rounded-full"
                     alt="phone icon"
                   />
 

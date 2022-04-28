@@ -3,15 +3,15 @@ import SVG from 'react-inlinesvg'
 export default function Projects() {
   return (
     <div id="projects" className="container my-28">
-      <p className="py-4 text-center md:py-2 text-orange-500">Best services</p>
+      <p className="py-4 text-center md:py-2 text-orange-500">Shërbimet më të kërkuara</p>
       <h2 className="text-center md:leading-tight text-3xl md:text-4xl font-bold text-gray-800  ">
-        Our Work Process
+        Procesi i punës tonë
       </h2>
       <div className="flex justify-center ">
         <SVG src="/svg/line.svg" className="w-36 h-6 text-black rounded-md " alt="house icon" />
       </div>
       <p className=" py-8 text-center text-base text-gray-600">
-        Take a look at the best work we&apos;ve done by simply clicking the link below.
+        Më poshtë mund të shihni si duket procesi punës sonë
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8  ">

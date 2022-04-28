@@ -18,7 +18,7 @@ export default function About() {
             className="rounded-tl-[200px] md:rounded-tl-[290px]"
             quality={100}
             width={530}
-            height={310}
+            height={410}
           />
 
           <div className="absolute left-2 md:left-[168px] top-0 " style={{ zIndex: '2' }}></div>
@@ -26,20 +26,20 @@ export default function About() {
             <SVG src="/svg/corner.svg" className="w-14 md:w-full" alt="facebook icon" />
           </div>
         </div>
-        <div className="md:col-6 pt-14 md:pt-0">
-          <p className="py-4 text-left md:py-4 text-orange-500">
+        <div className="md:col-6 pt-14 md:pt-0 grid content-center">
+          {/* <p className="py-4 text-left md:py-4 text-orange-500">
             GET YOUR PLACE CLEANED. IT’S SIMPLE
-          </p>
+          </p> */}
           <h1 className="lg:col-7 md:leading-tight text-left text-3xl md:text-4xl font-bold text-gray-800">
-            Making Your House As Good As New
+            Jepi freski shtëpisë tënde
           </h1>
           <div className="flex justify-start ">
             <SVG src="/svg/line.svg" className="w-36 h-6 text-black rounded-md " alt="house icon" />
           </div>
           <p className="lg:col-11 py-8 text-base md:text-left text-gray-600">
-            We make the cleaning experience easier for you our goal is to make cleaning enjoyable
-            again, and to give you your free time back so that you can concentrate on what’s
-            important.
+            Ne e bëjmë më të lehtë përvojën e pastrimit për ju, qëllimi ynë është ta bëjmë pastrimin
+            përsëri të këndshëm dhe t&apos;ju kthejmë kohën tuaj të lirë në mënyrë që të mund të
+            përqendroheni në atë që është e rëndësishme.
           </p>
           {/* <div className="flex justify-start mt-4">
             <Link href="#contact" passHref className="" aria-label="Contact Button">
@@ -51,20 +51,21 @@ export default function About() {
         </div>
       </div>
       <div className="md:flex py-0 md:py-24">
-        <div className="md:col-6 pt-14 md:pt-0">
-          <p className="py-4 text-left md:py-4 text-orange-500">
+        <div className="md:col-6 pt-14 md:pt-0 grid content-center">
+          {/* <p className="py-4 text-left md:py-4 text-orange-500">
             LET US SHOW YOU THE MAGIC WE CAN DO
-          </p>
+          </p> */}
           <h1 className="lg:col-8 md:leading-tight text-left text-3xl md:text-4xl font-bold text-gray-800">
-            Cleaning service has never been easier
+            Rezervimi i një shërbimi pastrimi
           </h1>
           <div className="flex justify-start">
             <SVG src="/svg/line.svg" className="w-36 h-6 text-black rounded-md " alt="house icon" />
           </div>
           <p className="py-8 lg:col-11 text-base text-left text-gray-600">
-            Booking a cleaning service has never been easier we understand that cleaning is a tough
-            job and one that nobody wants to make time for, which is why we have developed our
-            services to help you save time.
+            Rezervimi i një shërbimi pastrimi nuk ka qenë kurrë më i lehtë, ne e kuptojmë se
+            pastrimi është punë e vështirë dhe një punë për të cilën askush nuk dëshiron të gjejë
+            kohë, kjo është arsyeja pse ne kemi zhvilluar shërbimet tona për t&apos;ju ndihmuar të
+            kurseni kohë.
           </p>
           {/* <div className="flex justify-start mt-4">
             <Link href="#contact" passHref className="" aria-label="Contact Button">
@@ -88,7 +89,7 @@ export default function About() {
             className="rounded-tr-[200px] md:rounded-tr-[290px]"
             quality={100}
             width={530}
-            height={310}
+            height={410}
           />
 
           <div className="absolute left-2 md:left-[168px] top-0 " style={{ zIndex: '2' }}></div>
