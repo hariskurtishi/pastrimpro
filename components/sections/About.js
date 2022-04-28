@@ -5,7 +5,7 @@ import SVG from 'react-inlinesvg'
 import Button from '../Button'
 export default function About() {
   return (
-    <div className="container pt-24">
+    <div id="about" className="container pt-24">
       <div className=" md:flex py-0 md:py-24">
         <div className="md:col-6 flex relative  md:pt-0" style={{ zIndex: '4' }}>
           <Image

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import SVG from 'react-inlinesvg'
 export default function Projects() {
   return (
-    <div className="container my-28">
+    <div id="projects" className="container my-28">
       <p className="py-4 text-center md:py-2 text-orange-500">Best services</p>
       <h2 className="text-center md:leading-tight text-3xl md:text-4xl font-bold text-gray-800  ">
         Our Work Process

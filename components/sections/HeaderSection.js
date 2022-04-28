@@ -5,7 +5,7 @@ import SVG from 'react-inlinesvg'
 import Button from '../Button'
 export default function HeaderSection() {
   return (
-    <div className="bg-gray-250">
+    <div id="home" className="bg-gray-250">
       <div className="container md:flex">
         <div className="md:col-6 pt-14 md:pt-20">
           <p className="py-4 text-center md:text-left md:py-4 text-orange-500">We clean houses</p>
