@@ -1,7 +1,7 @@
+import Link from 'next/link'
 import { useState } from 'react'
 import SVG from 'react-inlinesvg'
 import { Link as ScrollLink } from 'react-scroll'
-
 const NavItem = ({ children, href }) => {
   return (
     <li>
@@ -27,7 +27,13 @@ export default function Navigation() {
       <div className="container">
         <div className="row py-6 justify-between items-center">
           <div className="col-3">
-            <p className="font-bold text-gray-950 text-2xl">Pastrim Pro</p>
+            <Link href="/" passHref aria-label="Logo">
+              <a>
+                <div className=" pt-16 md:pt-0">
+                  <p className="font-bold text-gray-950 text-2xl">Pastrim Pro</p>
+                </div>
+              </a>
+            </Link>
           </div>
           <div className="col-2 md:hidden block">
             <label htmlFor="menu-toggle" className="cursor-pointer">
@@ -40,7 +46,7 @@ export default function Navigation() {
           </div>
 
           <div
-            className={`md:col-6 md:flex justify-center md:justify-center ${
+            className={`md:col-6 md:flex justify-center space-x-12 md:justify-end ${
               menu ? ' flex' : ' hidden'
             }`}
           >
@@ -48,11 +54,8 @@ export default function Navigation() {
               <NavItem href="home">Home</NavItem>
               <NavItem href="about">About</NavItem>
               <NavItem href="services">Services</NavItem>
-              <NavItem href="">Pricing</NavItem>
             </ul>
-          </div>
-          <div className="hidden md:col-3 md:flex md:justify-end items-center">
-            <div className="flex justify-center md:justify-start ">
+            <div className="flex items-center">
               <a rel="noopener noreferrer" aria-label="phone" href="tel:00389 79 322 958">
                 <div className="flex justify items-center space-x-4 ">
                   <SVG
