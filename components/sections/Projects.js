@@ -10,12 +10,12 @@ export default function Projects() {
       <div className="flex justify-center ">
         <SVG src="/svg/line.svg" className="w-36 h-6 text-black rounded-md " alt="house icon" />
       </div>
-      <p className=" py-8 text-center text-base text-gray-500">
+      <p className=" py-8 text-center text-base text-gray-600">
         Take a look at the best work we&apos;ve done by simply clicking the link below.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8  ">
-        <div className=" rounded-lg  text-gray-500 bg-white">
+        <div className=" rounded-lg  text-gray-600 bg-white">
           <Image
             // loader={myLoader}
             priority
@@ -29,7 +29,7 @@ export default function Projects() {
             height={460}
           />
         </div>
-        <div className=" rounded-lg  text-gray-500 bg-white">
+        <div className=" rounded-lg  text-gray-600 bg-white">
           <Image
             // loader={myLoader}
             priority
@@ -43,7 +43,7 @@ export default function Projects() {
             height={460}
           />
         </div>
-        <div className=" rounded-lg  text-gray-500 bg-white">
+        <div className=" rounded-lg  text-gray-600 bg-white">
           <Image
             // loader={myLoader}
             priority
@@ -57,7 +57,7 @@ export default function Projects() {
             height={460}
           />
         </div>
-        <div className=" rounded-lg  text-gray-500 bg-white">
+        <div className=" rounded-lg  text-gray-600 bg-white">
           <Image
             // loader={myLoader}
             priority
@@ -71,7 +71,7 @@ export default function Projects() {
             height={460}
           />
         </div>
-        <div className=" rounded-lg  text-gray-500 bg-white">
+        <div className=" rounded-lg  text-gray-600 bg-white">
           <Image
             // loader={myLoader}
             priority
@@ -85,7 +85,7 @@ export default function Projects() {
             height={460}
           />
         </div>
-        <div className=" rounded-lg  text-gray-500 bg-white">
+        <div className=" rounded-lg  text-gray-600 bg-white">
           <Image
             // loader={myLoader}
             priority

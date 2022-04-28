@@ -17,7 +17,7 @@ export default function Footer() {
                 </Link>
               </div>
 
-              <div className="my-12 text-lg font-medium text-center text-gray-500 md:text-base">
+              <div className="my-12 text-lg font-medium text-center text-gray-600 md:text-base">
                 © All Rights Reserved. 2022 Made by {}
                 <a
                   href="https://hariskurtishi.com/"

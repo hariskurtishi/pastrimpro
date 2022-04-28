@@ -16,7 +16,7 @@ export default function HeaderSection() {
               For Your <span className="text-gray-800 md:text-gray-950 "> Home </span>{' '}
             </p>
           </h1>
-          <p className="py-8 text-center text-base md:text-left text-gray-500">
+          <p className="py-8 text-center text-base md:text-left text-gray-600">
             Professional housecleaning services, you want to make sure that you find a team that can
             accommodate your schedule, and cleaning preferences.
           </p>
@@ -91,12 +91,11 @@ export default function HeaderSection() {
               alt="facebook icon"
             />
           </div>
-          <div className="absolute -top-64 md:left-14 md:top-[390px] " style={{ zIndex: '-1' }}>
-            <SVG
-              src="/svg/dots.svg"
-              className="w-34 h-screen opacity-10 rounded-md "
-              alt="facebook icon"
-            />
+          <div
+            className="absolute hidden md:block md:left-16 md:top-[625px] "
+            style={{ zIndex: '-10' }}
+          >
+            <SVG src="/svg/dots.svg" className="w-34 h-64 opacity-10 " alt="facebook icon" />
           </div>
         </div>
       </div>

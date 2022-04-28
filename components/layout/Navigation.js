@@ -11,7 +11,7 @@ const NavItem = ({ children, href }) => {
         activeClass="md:text-gray-950  lg:before:bg-gray-950 menu-item"
         spy={true}
         smooth={true}
-        offset={-100}
+        offset={-200}
       >
         <div className="py-4">{children}</div>
       </ScrollLink>
@@ -57,11 +57,11 @@ export default function Navigation() {
                 <div className="flex justify items-center space-x-4 ">
                   <SVG
                     src="/svg/call.svg"
-                    className="bg-gray-950 w-10 h-10 p-2  text-white rounded-full"
+                    className="bg-gray-950 hover:bg-gray-3 w-10 h-10 p-2  text-white rounded-full"
                     alt="phone icon"
                   />
 
-                  <p className="text-gray-500"> +389 79 322 958</p>
+                  {/* <p className="text-gray-600"> +389 79 322 958</p> */}
                 </div>
               </a>
             </div>

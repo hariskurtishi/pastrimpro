@@ -1,4 +1,4 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import SVG from 'react-inlinesvg'
 export default function Services() {
   return (
@@ -10,13 +10,13 @@ export default function Services() {
       <div className="flex justify-center md:justify-start">
         <SVG src="/svg/line.svg" className="w-36 h-6 text-black rounded-md " alt="house icon" />
       </div>
-      <p className="md:col-6 py-8 text-center text-base md:text-left text-gray-500">
+      <p className="lg:col-5 md:col-6 py-8 text-center text-base md:text-left text-gray-600">
         While we can customize your cleaning plan to suit your needs, most clients schedule regular
         cleaning services:
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8  ">
-        <div className=" px-6 border-2 rounded-lg py-8 space-x-4 text-gray-500 bg-white">
+        <div className=" px-6 border-2 rounded-lg py-8 space-x-4 text-gray-600 bg-white">
           <div>
             <div className="bg-gray-950 inline-flex justify-start p-2 rounded-lg mb-4">
               <SVG src="/svg/house.svg" className="w-12 h-12" alt="check icon" />
@@ -27,7 +27,7 @@ export default function Services() {
                 We are taking care of cleaning surfaces on a regular basis so that they don&apos;t
                 get overwhelmingly dirty.
               </p>
-              <Link href="#contact" aria-label="Contact">
+              {/* <Link href="#contact" aria-label="Contact">
                 <a>
                   <button className="flex items-center mt-6 space-x-4 ">
                     <div className="text-gray-950 hover:border-b border-gray-950">Learn More.</div>
@@ -38,11 +38,11 @@ export default function Services() {
                     />
                   </button>
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
-        <div className=" px-6 border-2 rounded-lg py-8 space-x-4 text-gray-500 bg-white">
+        <div className=" px-6 border-2 rounded-lg py-8 space-x-4 text-gray-600 bg-white">
           <div>
             <div className="bg-gray-950 inline-flex justify-start p-2 rounded-lg mb-4">
               <SVG src="/svg/house.svg" className="w-12 h-12" alt="check icon" />
@@ -53,7 +53,7 @@ export default function Services() {
                 Needs that do not necessarily mean you have a party planned or awaiting a special
                 occasion, or expecting guests.
               </p>
-              <Link href="#contact" aria-label="Contact">
+              {/* <Link href="#contact" aria-label="Contact">
                 <a>
                   <button className="flex items-center mt-6 space-x-4 ">
                     <div className="text-gray-950 hover:border-b border-gray-950">Learn More.</div>
@@ -64,11 +64,11 @@ export default function Services() {
                     />
                   </button>
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
-        <div className=" px-6 border-2 rounded-lg py-8 space-x-4 text-gray-500 bg-white">
+        <div className=" px-6 border-2 rounded-lg py-8 space-x-4 text-gray-600 bg-white">
           <div>
             <div className="bg-gray-950 inline-flex justify-start p-2 rounded-lg mb-4">
               <SVG src="/svg/house.svg" className="w-12 h-12" alt="check icon" />
@@ -79,7 +79,7 @@ export default function Services() {
                 We are taking care of cleaning surfaces on a regular basis so that they don&apos;t
                 get overwhelmingly dirty.
               </p>
-              <Link href="#contact" aria-label="Contact">
+              {/* <Link href="#contact" aria-label="Contact">
                 <a>
                   <button className="flex items-center mt-6 space-x-4 ">
                     <div className="text-gray-950 hover:border-b border-gray-950">Learn More.</div>
@@ -90,7 +90,7 @@ export default function Services() {
                     />
                   </button>
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
