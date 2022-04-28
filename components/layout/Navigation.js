@@ -29,7 +29,7 @@ export default function Navigation() {
           <div className="col-3">
             <Link href="/" passHref aria-label="Logo">
               <a>
-                <div className=" pt-16 md:pt-0">
+                <div className="  md:pt-0">
                   <p className="font-bold text-gray-950 text-2xl">Pastrim Pro</p>
                 </div>
               </a>
@@ -54,10 +54,8 @@ export default function Navigation() {
               <NavItem href="home">Home</NavItem>
               <NavItem href="about">About</NavItem>
               <NavItem href="services">Services</NavItem>
-            </ul>
-            <div className="flex items-center">
               <a rel="noopener noreferrer" aria-label="phone" href="tel:00389 79 322 958">
-                <div className="flex justify items-center space-x-4 ">
+                <div className="flex justify-center pt-6 md:pt-0 items-center space-x-4 ">
                   <SVG
                     src="/svg/call.svg"
                     className="bg-gray-950 hover:bg-gray-3 w-10 h-10 p-2  text-white rounded-full"
@@ -67,7 +65,7 @@ export default function Navigation() {
                   {/* <p className="text-gray-600"> +389 79 322 958</p> */}
                 </div>
               </a>
-            </div>
+            </ul>
           </div>
         </div>
       </div>
