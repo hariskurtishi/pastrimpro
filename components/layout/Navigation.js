@@ -33,7 +33,7 @@ export default function Navigation() {
             <label htmlFor="menu-toggle" className="cursor-pointer">
               <SVG
                 src="../svg/menu.svg"
-                className="fill-current text-black w-6 h-6"
+                className="fill-current text-gray-950 w-6 h-6"
                 onClick={() => setMenu(!menu)}
               />
             </label>
@@ -44,7 +44,7 @@ export default function Navigation() {
               menu ? ' flex' : ' hidden'
             }`}
           >
-            <ul className="flex w-full text-center text-gray-500 divide-y divide-gray-950 md:divide-y-0 md:space-x-12 p-5 flex-col md:w-auto md:p-0 md:flex-row items-center">
+            <ul className="flex-col w-full font-bold divide-y lg:flex text-gray-950 md:text-zinc-700 md:font-medium pt-14 lg:space-x-12 lg:w-auto md:p-0 md:flex-row lg:justify-center text-center md:items-center lg:text-left md:divide-y-2 lg:divide-y-0 divide-gray-950">
               <NavItem href="home">Home</NavItem>
               <NavItem href="about">About</NavItem>
               <NavItem href="services">Services</NavItem>
@@ -52,11 +52,19 @@ export default function Navigation() {
             </ul>
           </div>
           <div className="hidden md:col-3 md:flex md:justify-end items-center">
-            <a href="#contact" passHref className="" aria-label="Contact Button">
-              <div as="a" variant="secondary">
-                Get a Quote
-              </div>
-            </a>
+            <div className="flex justify-center md:justify-start ">
+              <a rel="noopener noreferrer" aria-label="phone" href="tel:00389 79 322 958">
+                <div className="flex justify items-center space-x-4 ">
+                  <SVG
+                    src="/svg/call.svg"
+                    className="bg-gray-950 w-10 h-10 p-2  text-white rounded-full"
+                    alt="phone icon"
+                  />
+
+                  <p className="text-gray-500"> +389 79 322 958</p>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -56,6 +56,20 @@ export default function Footer() {
                     />
                   </a>
                 </div>
+                <div className="">
+                  <a
+                    rel="noopener noreferrer"
+                    aria-label="email"
+                    href="emailto:pastrimprofesionalgostivar@gmail.com
+                    "
+                  >
+                    <SVG
+                      src="/svg/email.svg"
+                      className="w-12 h-12 p-2 transition-all text-gray-950 hover:text-gray-3 rounded-md cursor-pointer fill-current "
+                      alt="email icon"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
