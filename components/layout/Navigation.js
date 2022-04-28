@@ -23,7 +23,7 @@ export default function Navigation() {
       <div className="container">
         <div className="row py-6 justify-between items-center">
           <div className="col-3">
-            <p className="font-bold text-blue-300 text-2xl">Pastrim Pro</p>
+            <p className="font-bold text-gray-950 text-2xl">Pastrim Pro</p>
           </div>
           <div className="col-2 md:hidden block">
             <label htmlFor="menu-toggle" className="cursor-pointer">

@@ -10,10 +10,10 @@ export default function HeaderSection() {
         <div className="md:col-6 pt-14 md:pt-20">
           <p className="py-4 text-center md:text-left md:py-4 text-orange-500">We clean houses</p>
           <h1 className="text-center md:leading-tight md:text-left text-3xl md:text-6xl font-bold text-gray-800">
-            Complete <span className="text-gray-800 md:text-blue-300">Cleaning</span> And
-            <span className="text-gray-800 md:text-blue-300"> Disinfection </span>
+            Complete <span className="text-gray-800 md:text-gray-950">Cleaning</span> And
+            <span className="text-gray-800 md:text-gray-950"> Disinfection </span>
             <p>
-              For Your <span className="text-gray-800 md:text-blue-300 "> Home </span>{' '}
+              For Your <span className="text-gray-800 md:text-gray-950 "> Home </span>{' '}
             </p>
           </h1>
           <p className="py-8 text-center text-base md:text-left text-gray-500">
@@ -33,7 +33,7 @@ export default function HeaderSection() {
               <div className="flex justify items-center space-x-4 mt-10">
                 <SVG
                   src="/svg/call.svg"
-                  className="bg-blue-300 w-10 h-10 p-2  text-white rounded-full"
+                  className="bg-gray-950 w-10 h-10 p-2  text-white rounded-full"
                   alt="phone icon"
                 />
 

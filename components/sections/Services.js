@@ -18,7 +18,7 @@ export default function Services() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8  ">
         <div className=" px-6 border-2 rounded-lg py-8 space-x-4 text-gray-500 bg-white">
           <div>
-            <div className="bg-blue-300 inline-flex justify-start p-2 rounded-lg mb-4">
+            <div className="bg-gray-950 inline-flex justify-start p-2 rounded-lg mb-4">
               <SVG src="/svg/house.svg" className="w-12 h-12" alt="check icon" />
             </div>
             <div>
@@ -30,7 +30,7 @@ export default function Services() {
               <Link href="#contact" aria-label="Contact">
                 <a>
                   <button className="flex items-center mt-6 space-x-4 ">
-                    <div className="text-blue-300 hover:border-b border-blue-300">Learn More.</div>
+                    <div className="text-gray-950 hover:border-b border-gray-950">Learn More.</div>
                     <SVG
                       src="/svg/arrow.svg"
                       className="text-white w-5 fill-current"
@@ -44,7 +44,7 @@ export default function Services() {
         </div>
         <div className=" px-6 border-2 rounded-lg py-8 space-x-4 text-gray-500 bg-white">
           <div>
-            <div className="bg-blue-300 inline-flex justify-start p-2 rounded-lg mb-4">
+            <div className="bg-gray-950 inline-flex justify-start p-2 rounded-lg mb-4">
               <SVG src="/svg/house.svg" className="w-12 h-12" alt="check icon" />
             </div>
             <div>
@@ -56,7 +56,7 @@ export default function Services() {
               <Link href="#contact" aria-label="Contact">
                 <a>
                   <button className="flex items-center mt-6 space-x-4 ">
-                    <div className="text-blue-300 hover:border-b border-blue-300">Learn More.</div>
+                    <div className="text-gray-950 hover:border-b border-gray-950">Learn More.</div>
                     <SVG
                       src="/svg/arrow.svg"
                       className="text-white w-5 fill-current"
@@ -70,7 +70,7 @@ export default function Services() {
         </div>
         <div className=" px-6 border-2 rounded-lg py-8 space-x-4 text-gray-500 bg-white">
           <div>
-            <div className="bg-blue-300 inline-flex justify-start p-2 rounded-lg mb-4">
+            <div className="bg-gray-950 inline-flex justify-start p-2 rounded-lg mb-4">
               <SVG src="/svg/house.svg" className="w-12 h-12" alt="check icon" />
             </div>
             <div>
@@ -82,7 +82,7 @@ export default function Services() {
               <Link href="#contact" aria-label="Contact">
                 <a>
                   <button className="flex items-center mt-6 space-x-4 ">
-                    <div className="text-blue-300 hover:border-b border-blue-300">Learn More.</div>
+                    <div className="text-gray-950 hover:border-b border-gray-950">Learn More.</div>
                     <SVG
                       src="/svg/arrow.svg"
                       className="text-white w-5 fill-current"

@@ -11,7 +11,7 @@ export default function Footer() {
                 <Link href="/" passHref aria-label="Logo">
                   <a>
                     <div className=" pt-16 md:pt-0">
-                      <p className="font-bold text-blue-300 text-2xl">Pastrim Pro</p>
+                      <p className="font-bold text-gray-950 text-2xl">Pastrim Pro</p>
                     </div>
                   </a>
                 </Link>
@@ -24,7 +24,7 @@ export default function Footer() {
                   className="transition-all hover:border-b"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-blue-300 hover:text-blue-400">Haris Kurtishi</span>
+                  <span className="text-gray-950 hover:text-bg-gray-3">Haris Kurtishi</span>
                 </a>
               </div>
 
@@ -37,7 +37,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/fb.svg"
-                      className="w-12 h-12 p-2 transition-all text-blue-300 hover:text-blue-400 rounded-md cursor-pointer fill-current "
+                      className="w-12 h-12 p-2 transition-all text-gray-950 hover:text-gray-3 rounded-md cursor-pointer fill-current "
                       alt="facebook icon"
                     />
                   </a>
@@ -51,7 +51,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/instagram.svg"
-                      className="w-12 h-12 p-2 transition-all text-blue-300 hover:text-blue-400 rounded-md cursor-pointer fill-current "
+                      className="w-12 h-12 p-2 transition-all text-gray-950 hover:text-gray-3 rounded-md cursor-pointer fill-current "
                       alt="email icon"
                     />
                   </a>
