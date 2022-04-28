@@ -11,9 +11,9 @@ function MyApp({ Component, pageProps }) {
         openGraph={{
           type: 'website',
           locale: 'en_EN',
-          url: '',
-          site_name: 'Next Starter',
-          description: 'Website description here',
+          url: 'https://pastrimpro.com/',
+          site_name: 'Pastrim Pro Gostivar',
+          description: 'Cleaning Service, Pastrim profesional i shtëpive dhe zyrave.',
         }}
       />
       <Component {...pageProps} />
