@@ -20,7 +20,7 @@ export default function HeaderSection() {
             </p> */}
           </h1>
           <p className="py-8 text-center text-base md:text-left text-gray-600">
-            Eikip me sy të trajnuar që mos ti ik asnjë detaj gjatë pastrimit të shtëpisë, zyrës tuaj
+            Ekip me sy të trajnuar që mos ti ik asnjë detaj gjatë pastrimit të shtëpisë, zyrës tuaj
             apo çfarëdo hapsire që të keni nevojë.
           </p>
           <div className="flex items-center justify-center mb-8 space-x-4 md:mb-8 md:justify-start ">
