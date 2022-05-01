@@ -1,7 +1,11 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
 
+User-agent: Googlebot
+Disallow: 
+User-agent: googlebot-image
+Disallow: 
+User-agent: googlebot-mobile
+Disallow: 
 User-agent: *
 Allow: /
-
-Sitemap: https://mywebsite.com/sitemap.xml
+Disallow: /cgi-bin/
+Sitemap: https://www.pastrimpro.com/sitemap.xml
