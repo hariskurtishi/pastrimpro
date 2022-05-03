@@ -21,13 +21,13 @@ export default function Layout({ children, title = null }) {
         <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <script src="https://feedbucket.app/js/tool.js" defer></script>
+        {/* <script src="https://feedbucket.app/js/tool.js" defer></script>
         <script
           module
           src="https://feedbucket.app/js/feedbucket.js"
           feedbucket-key="YGf0o3MVRI8Q5iepEDp5"
           defer
-        ></script>
+        ></script> */}
       </Head>
       <div className={`font-sans antialiased flex flex-col ${dev ? 'debug-screens' : ''}`}>
         {/* Navigation here */}
