@@ -42,7 +42,7 @@ export default function HeaderSection() {
               <a
                 rel="noopener noreferrer"
                 aria-label="instagram"
-                href="https://www.instagram.com/pastrimpro//"
+                href="https://www.instagram.com/pastrimpro/"
               >
                 <SVG
                   src="/svg/instagram.svg"
