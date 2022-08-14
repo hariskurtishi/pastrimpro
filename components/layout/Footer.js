@@ -11,7 +11,7 @@ export default function Footer() {
                 <Link href="/" passHref aria-label="Logo">
                   <a>
                     <div className=" pt-16 md:pt-0">
-                      <p className="font-bold text-gray-950 text-2xl">Pastrim Pro</p>
+                      <SVG src="../svg/logo.svg" className="fill-current text-gray-950 w-28 h-28" />
                     </div>
                   </a>
                 </Link>

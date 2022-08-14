@@ -25,12 +25,16 @@ export default function Navigation() {
   return (
     <div className="bg-gray-250 flex items-center sticky top-0 z-50">
       <div className="container">
-        <div className="row py-6 justify-between items-center">
+        <div className="row justify-between items-center">
           <div className="col-3">
             <Link href="/" passHref aria-label="Logo">
               <a>
                 <div className="  md:pt-0">
-                  <p className="font-bold text-gray-950 text-2xl">Pastrim Pro</p>
+                  <SVG
+                    src="../svg/logo.svg"
+                    className="fill-current text-gray-950 w-28 h-28"
+                    onClick={() => setMenu(!menu)}
+                  />
                 </div>
               </a>
             </Link>
