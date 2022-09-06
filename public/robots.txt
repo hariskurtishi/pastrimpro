@@ -8,4 +8,4 @@ Disallow:
 User-agent: *
 Allow: /
 Disallow: /cgi-bin/
-Sitemap: https://www.pastrimpro.com/sitemap.xml
+Sitemap: https://www.pastrim.pro/sitemap.xml
