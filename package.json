@@ -13,7 +13,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@fontsource/jost": "^4.5.6",
+    "@fontsource/jost": "^4.5.12",
     "@fontsource/poppins": "^4.5.5",
     "@headlessui/react": "^1.5.0",
     "autoprefixer": "^10.4.4",
